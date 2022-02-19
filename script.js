@@ -51,7 +51,7 @@ function start(){
   main.innerHTML= `<h1 id="time"> Time: ${Math.floor(120 - new Date().getTime() / 1000 + start_seconds)}</h1>
   <h1 id="question"> ${a1} + ${a2} + ${a3} + ${a4} =   </h1>
 
-  <input type="text" id="name" name="name" required
+  <input type="number" id="name" name="name" required
   minlength="4" maxlength="8" size="10">
 
   <h2 id="score"> Score: ${score} </h2>

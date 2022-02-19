@@ -20,7 +20,7 @@
   h3 {text-align: center;}
   h4 {text-align: center;}
 
-  input[type=text] {
+  input[type=number] {
     display: grid;
     place-items: center;
     margin : 0 auto;
